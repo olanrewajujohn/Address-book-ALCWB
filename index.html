@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Address | Book - ALC Challenge</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/style_card.css">-->	
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>ALC Challenge - Web Beginner Track</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background: url(Imagefolder/landingbg.jpg);background-attachment:cover;background-position:absolute;background-repeat:no-repeat;">
+	<nav>
+		
+	</nav>
+
+	<div class="contact-card" id="contactcard">
+	<img src="Imagefolder/avatar.png" class="avatar">
+		<h1>Contact Card</h1>
+		<h4>Fill the form to save a new entry!</h4>
+		<form >
+			<span id="warning"></span> <br>
+			<p>Full Name</p>
+			<input type="text" placeholder="Enter Surname First" id="contactName" required="required">
+			<p>Phone number</p>
+			<input type="number" placeholder="Your Phone no" id="contactNumber" required="required">
+			<p>Email Address</p>
+			<input type="text" placeholder="Enter valid email" id="contactMail" required="required">
+			<p> 
+			<button type="button" id="saveButton">Submit Entry</button> </p>
+			<br><br>
+			<span class="tester"></span>
+		</form>
+	</div>
+	
+	<div class="contacts" id="contacts" style="margin-left: 2px solid black">
+		<!-- <h3>Contacts</h3> -->
+		<h1 id="bookhead">Address Book</h1>
+		<div id="contact-list" style="height: 25rem; padding: 1rem; overflow-y: scroll">
+
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
